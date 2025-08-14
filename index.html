@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Figen Köksal</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Figen Köksal | Çevre ve Enerji Danışmanı</title>
   <style>
     body {
+      font-family: "Segoe UI", sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f8f8;
+      padding: 0;
+      background: #f5f5f5;
       color: #333;
     }
     header {
-      background-color: #6A5ACD;
+      background-color: #2c3e50;
       color: white;
       padding: 60px 20px;
       text-align: center;
     }
     header h1 {
+      font-size: 42px;
       margin: 0;
-      font-size: 48px;
     }
     header p {
       font-size: 20px;
@@ -29,25 +30,48 @@
       max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
     section {
-      margin-bottom: 40px;
+      padding: 30px 0;
+      border-bottom: 1px solid #ddd;
     }
     h2 {
-      color: #6A5ACD;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-      color: #777;
+      color: #2c3e50;
     }
     a {
-      color: #6A5ACD;
+      color: #2c3e50;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #1a252f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
     }
   </style>
 </head>
@@ -55,26 +79,54 @@
 
 <header>
   <h1>Figen Köksal</h1>
-  <p>Freelance Tasarımcı | Dijital İçerik Üreticisi</p>
+  <p>Çevre ve Enerji Yönetimi Danışmanı</p>
 </header>
 
 <main>
   <section>
-    <h2>Hakkımda</h2>
-    <p>Merhaba, ben Figen Köksal. Görsel tasarım, dijital medya ve yaratıcı içerik üretimi alanında çalışıyorum. Bu sayfa, benimle ilgili temel bilgilere ulaşmanız için hazırlandı.</p>
+    <h2>🌱 Hakkımda</h2>
+    <p>
+      Merhaba, ben Figen Köksal.<br />
+      Ege Üniversitesi Tekstil Mühendisliği bölümünde Tekstil Kimyası ve Terbiyesi alanında lisans, Namık Kemal Üniversitesi'nde Tekstil Mühendisliği alanında yüksek lisans derecesine sahibim.
+    </p>
+    <p>
+      Özel sektörde 25 yılı aşkın süredir; kalite kontrol, kalite güvence, Ar-Ge, proje yöneticiliği, sürdürülebilirlik müdürlüğü ve enerji yöneticiliği görevlerinde bulundum.
+      ISO 50001, ISO 14001 ve karbon ayak izi alanlarında danışmanlık hizmeti sunuyorum.
+    </p>
   </section>
 
   <section>
-    <h2>Projelerim</h2>
+    <h2>🔍 Hizmet Alanlarım</h2>
     <ul>
-      <li><strong>Portföy:</strong> <a href="https://figenkoksal.myportfolio.com" target="_blank">Adobe Portfolio</a></li>
-      <li><strong>Instagram:</strong> <a href="https://instagram.com/figenkoksal" target="_blank">@figenkoksal</a></li>
+      <li>ISO 50001 – Enerji yönetimi sistemi kurulumu ve iyileştirmesi</li>
+      <li>ISO 14001 – Çevre yönetimi danışmanlığı</li>
+      <li>Kurumsal karbon ayak izi hesaplama ve azaltım stratejileri</li>
+      <li>Eğitim ve farkındalık programları</li>
     </ul>
   </section>
 
   <section>
-    <h2>İletişim</h2>
-    <p>Bana ulaşmak için <a href="mailto:figen@figenkoksal.com">figen@figenkoksal.com</a> adresine mail atabilirsiniz.</p>
+    <h2>📞 İletişim</h2>
+    <p>Benimle iletişime geçmek için aşağıdaki formu doldurabilirsiniz:</p>
+
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label>Ad Soyad:</label>
+      <input type="text" name="name" required />
+
+      <label>E-posta:</label>
+      <input type="email" name="email" required />
+
+      <label>Mesaj:</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <button type="submit">Gönder</button>
+    </form>
+
+    <p style="font-size: 13px; color: #888;">Alternatif olarak e-posta gönderebilirsiniz:  
+      <a href="mailto:figen.koksal@hotmail.com">figen.koksal@hotmail.com</a><br />
+      Telefon: <a href="tel:+905365146231">0536 514 62 31</a><br />
+      LinkedIn: <a href="https://www.linkedin.com/feed/" target="_blank">linkedin.com/feed</a>
+    </p>
   </section>
 </main>
 
